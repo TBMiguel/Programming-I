@@ -9,8 +9,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Endereco endereco = new Endereco("Rua exemplo2", "São Paulo", "SP", 80491-680);
-		Endereco endereco2 = new Endereco("Rua exemplo1", "Curitiba", "PR", 85410-960);
+		Endereco endereco = new Endereco("Rua exemplo2", "São Paulo", "SP", "80491-680");
+		Endereco endereco2 = new Endereco("Rua exemplo1", "Curitiba", "PR", "85410-960");
 		
 		ArrayList<Endereco> ListaEnderecos = new ArrayList<>();
 		ListaEnderecos.add(endereco);
@@ -23,9 +23,9 @@ public class Main {
 		
 		for(int i=0; i < contato.getEnderecos().size(); i++) {
 			System.out.println("Rua: " 
-					+ contato.getEnderecos().get(i).getRua() 
-					+ contato.getEnderecos().get(i).getCidade()
-					+ contato.getEnderecos().get(i).getEstado() 
+					+ contato.getEnderecos().get(i).getRua() + " - "
+					+ contato.getEnderecos().get(i).getCidade() + ", "
+					+ contato.getEnderecos().get(i).getEstado() + " - "
 					+ contato.getEnderecos().get(i).getCep());
 		}
 	

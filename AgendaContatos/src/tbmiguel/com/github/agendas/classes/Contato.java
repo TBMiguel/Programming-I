@@ -75,7 +75,7 @@ public class Contato extends Agenda{
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("Contato: " + getNome() + getSobrenome() + "\n");
+		sb.append("Contato: " + getNome() + " " + getSobrenome() + "\n");
 		sb.append("Telefone Celular: " + getTelefoneCelular() + "\n");
 		sb.append("Email: " + getEmail() + "\n");
 		return sb.toString();

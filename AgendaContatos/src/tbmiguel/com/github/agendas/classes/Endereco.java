@@ -5,11 +5,11 @@ public class Endereco {
 		private String rua;
 		private String cidade;
 		private String estado;
-		private int cep;
+		private String cep;
 		private String complemento;
 		
 		
-		public Endereco(String rua, String cidade, String estado, int cep) {
+		public Endereco(String rua, String cidade, String estado, String cep) {
 			this.rua = rua;
 			this.cidade = cidade;
 			this.estado = estado;
@@ -34,10 +34,10 @@ public class Endereco {
 		public void setEstado(String estado) {
 			this.estado = estado;
 		}
-		public int getCep() {
+		public String getCep() {
 			return cep;
 		}
-		public void setCep(int cep) {
+		public void setCep(String cep) {
 			this.cep = cep;
 		}
 		public String getComplemento() {
