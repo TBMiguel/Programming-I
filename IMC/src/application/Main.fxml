@@ -16,36 +16,36 @@
                   <Font size="24.0" />
                </font>
             </Label>
-            <Label layoutX="47.0" layoutY="84.0" text="Nome:">
+            <Label layoutX="47.0" layoutY="84.0" styleClass="labelnames" stylesheets="@application.css" text="Nome:">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label layoutX="226.0" layoutY="83.0" prefHeight="20.0" prefWidth="50.0" text="Idade:">
+            <Label layoutX="226.0" layoutY="83.0" prefHeight="20.0" prefWidth="50.0" styleClass="labelnames" stylesheets="@application.css" text="Idade:">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label layoutX="227.0" layoutY="115.0" text="Peso (KG):">
+            <Label layoutX="227.0" layoutY="115.0" styleClass="labelnames" stylesheets="@application.css" text="Peso (KG):">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label layoutX="46.0" layoutY="115.0" prefHeight="20.0" prefWidth="50.0" text="Gênero:">
+            <Label layoutX="46.0" layoutY="119.0" prefHeight="21.0" prefWidth="62.0" styleClass="labelnames" stylesheets="@application.css" text="Gênero:">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label layoutX="47.0" layoutY="151.0" text="Altura (m):">
+            <Label layoutX="47.0" layoutY="151.0" styleClass="labelnames" stylesheets="@application.css" text="Altura (m):">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <TextField fx:id="name" layoutX="96.0" layoutY="83.0" prefHeight="0.0" prefWidth="112.0" />
-            <TextField fx:id="age" layoutX="284.0" layoutY="82.0" prefHeight="25.0" prefWidth="41.0" />
-            <TextField fx:id="genero" layoutX="104.0" layoutY="113.0" prefHeight="25.0" prefWidth="74.0" />
+            <TextField fx:id="name" layoutX="103.0" layoutY="83.0" prefHeight="0.0" prefWidth="112.0" />
+            <TextField fx:id="age" layoutX="279.0" layoutY="82.0" prefHeight="25.0" prefWidth="41.0" />
+            <TextField fx:id="genero" layoutX="109.0" layoutY="116.0" prefHeight="25.0" prefWidth="74.0" />
             <TextField fx:id="weight" layoutX="303.0" layoutY="111.0" prefHeight="25.0" prefWidth="50.0" />
-            <TextField fx:id="height" layoutX="120.0" layoutY="149.0" prefHeight="25.0" prefWidth="50.0" />
+            <TextField fx:id="height" layoutX="124.0" layoutY="149.0" prefHeight="25.0" prefWidth="50.0" />
             <Button fx:id="btnClick" layoutX="200.0" layoutY="149.0" mnemonicParsing="false" onAction="#cliclou" prefHeight="25.0" prefWidth="84.0" stylesheets="@application.css" text="Clique Aqui!" />
             <Button fx:id="btnClick2" layoutX="292.0" layoutY="149.0" mnemonicParsing="false" onAction="#clear" prefHeight="25.0" prefWidth="62.0" styleClass="clear-button" stylesheets="@application.css" text="Limpar" />
          </children>

@@ -22,11 +22,11 @@ public class MainController {
 	public Button btnClick2;
 	
 	public void clear() {
-		name.setText(null);
-		height.setText(null);
-		weight.setText(null);
-		age.setText(null);
-		genero.setText(null);	
+		name.setText("");
+		height.setText("");
+		weight.setText("");
+		age.setText("");
+		genero.setText("");	
 	}
 	
 	public void cliclou() {
