@@ -1,0 +1,16 @@
+# Questão I
+	
+  - Java jdk zulu - Kit de desenvolvimento, compilador do java.
+      * Configurar variáveis do sistema apontando para o /bin
+      http://prntscr.com/1utnkrm
+      
+  - Scene Builder - Faz a composição do layout da aplicação.
+      http://prntscr.com/1uto2vg
+      
+  - IDE Eclipse - Instalar Ambiente de Desenvolvimento, deverá configurar Plugin do javaFX para conseguir rodar JavaFX.
+      http://prntscr.com/1uto15w
+      
+# Questão II
+  
+  O JavaFX entrega uma divisão de responsabilidade na arquitetura do software, similar ao HTML para a Web, onde conseguimos ter regras de négocio encapsuladas em pacotes (Desacoplando o código e proporcionando reuso do código). 
+  http://prntscr.com/1utom38
