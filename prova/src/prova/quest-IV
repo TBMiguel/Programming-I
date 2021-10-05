@@ -1,0 +1,5 @@
+# Questão 4
+
+  - Não irá compilar, pois no FXML está definido um layout GridPane e no código um BorderPane. Seria como alocar um Float em uma variável do tipo Int.
+  O erro retornará a seguinte Exception:
+  http://prntscr.com/1utpzxb
