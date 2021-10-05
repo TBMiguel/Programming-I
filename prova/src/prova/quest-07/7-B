@@ -1,0 +1,29 @@
+#7-B
+
+package quest07;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Leitura {
+
+	public static void main(String[] args) {
+		try {
+			BufferedReader in = new BufferedReader(new FileReader("prova.txt"));
+			String linha = in.readLine();
+			
+			while(linha != null) {
+				System.out.println(linha);
+				linha = in.readLine();
+			}
+			
+			in.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}
