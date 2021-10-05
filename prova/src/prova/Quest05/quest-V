@@ -1,0 +1,4 @@
+# Questão 05
+  
+  - A classe que contém membros estáticos não precisará ser instânciada para ser utilizada, sendo passada a mesma referência em memória.
+    http://prntscr.com/1utqsxa
